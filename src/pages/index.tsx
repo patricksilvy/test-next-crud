@@ -32,6 +32,7 @@ export default function Home() {
                                 color="green"
                                 className="mb-4"
                                 onClick={criarCliente}
+                                id="new-client"
                             >
                                 Novo Cliente
                             </Botao>

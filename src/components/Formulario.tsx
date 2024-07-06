@@ -42,6 +42,7 @@ export default function Formulario({ cliente, cancelado, clienteAlterado }: Form
                     color="blue"
                     className="mr-2"
                     onClick={() => clienteAlterado?.(new Cliente(name, age, id))}
+                    id="save"
                 >
                     {id ? 'Alterar' : 'Salvar'}
                 </Botao>
