@@ -28,12 +28,14 @@ export default function Formulario({ cliente, cancelado, clienteAlterado }: Form
             <Entrada
                 text="Nome"
                 value={name}
+                id="name"
                 onChange={e => setName((e.target as HTMLInputElement).value)}
                 className="mb-4"
             />
             <Entrada
                 text="Idade"
                 value={age}
+                id="age"
                 onChange={e => setAge(+(e.target as HTMLInputElement).value)}
             />
             <div className="flex justify-end mt-7">
