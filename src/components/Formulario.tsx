@@ -33,7 +33,6 @@ export default function Formulario({ cliente, cancelado, clienteAlterado }: Form
             />
             <Entrada
                 text="Idade"
-                type='number'
                 value={age}
                 onChange={e => setAge(+(e.target as HTMLInputElement).value)}
             />
